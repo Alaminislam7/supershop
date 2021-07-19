@@ -116,7 +116,7 @@
                                                 </ul>
                                             </div>
                                             <div class="dropdown-banner-holder"> <a href="#"><img alt=""
-                                                        src="assets/images/banners/banner-side.png" /></a> </div>
+                                                        src="{{ asset('frontend/assets/images/banners/banner-side.png') }}" /></a> </div>
                                         </div>
                                         <!-- /.row -->
                                     </li>
@@ -227,7 +227,7 @@
                                                 </ul>
                                             </div>
                                             <div class="dropdown-banner-holder"> <a href="#"><img alt=""
-                                                        src="assets/images/banners/banner-side.png" /></a> </div>
+                                                        src="{{ asset('frontend/assets/images/banners/banner-side.png') }}" /></a> </div>
                                         </div>
                                         <!-- /.row -->
                                     </li>
@@ -337,7 +337,7 @@
                                                 </ul>
                                             </div>
                                             <div class="dropdown-banner-holder"> <a href="#"><img alt=""
-                                                        src="assets/images/banners/banner-side.png" /></a> </div>
+                                                        src="{{ asset('frontend/assets/images/banners/banner-side.png') }}" /></a> </div>
                                         </div>
                                         <!-- /.row -->
                                     </li>
@@ -382,7 +382,7 @@
                         <div class="item">
                             <div class="products">
                                 <div class="hot-deal-wrapper">
-                                    <div class="image"> <img src="assets/images/hot-deals/p25.jpg" alt=""> </div>
+                                    <div class="image"> <img src="{{ asset('frontend/assets/images/hot-deals/p25.jpg') }}" alt=""> </div>
                                     <div class="sale-offer-tag"><span>49%<br>
                                             off</span></div>
                                     <div class="timing-wrapper">
@@ -432,7 +432,7 @@
                         <div class="item">
                             <div class="products">
                                 <div class="hot-deal-wrapper">
-                                    <div class="image"> <img src="assets/images/hot-deals/p5.jpg" alt=""> </div>
+                                    <div class="image"> <img src="{{ asset('frontend/assets/images/hot-deals/p5.jpg') }}" alt=""> </div>
                                     <div class="sale-offer-tag"><span>35%<br>
                                             off</span></div>
                                     <div class="timing-wrapper">
@@ -482,7 +482,7 @@
                         <div class="item">
                             <div class="products">
                                 <div class="hot-deal-wrapper">
-                                    <div class="image"> <img src="assets/images/hot-deals/p10.jpg" alt=""> </div>
+                                    <div class="image"> <img src="{{ asset('frontend/assets/images/hot-deals/p10.jpg') }}" alt=""> </div>
                                     <div class="sale-offer-tag"><span>35%<br>
                                             off</span></div>
                                     <div class="timing-wrapper">
@@ -548,7 +548,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p30.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p30.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -579,7 +579,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p29.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p29.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -610,104 +610,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p28.jpg" alt=""> </a>
-                                                        </div>
-                                                        <!-- /.image -->
-
-                                                    </div>
-                                                    <!-- /.product-image -->
-                                                </div>
-                                                <!-- /.col -->
-                                                <div class="col col-xs-7">
-                                                    <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                                                        <div class="rating rateit-small"></div>
-                                                        <div class="product-price"> <span class="price"> $450.99 </span>
-                                                        </div>
-                                                        <!-- /.product-price -->
-
-                                                    </div>
-                                                </div>
-                                                <!-- /.col -->
-                                            </div>
-                                            <!-- /.product-micro-row -->
-                                        </div>
-                                        <!-- /.product-micro -->
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="products special-product">
-                                    <div class="product">
-                                        <div class="product-micro">
-                                            <div class="row product-micro-row">
-                                                <div class="col col-xs-5">
-                                                    <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p27.jpg" alt=""> </a>
-                                                        </div>
-                                                        <!-- /.image -->
-
-                                                    </div>
-                                                    <!-- /.product-image -->
-                                                </div>
-                                                <!-- /.col -->
-                                                <div class="col col-xs-7">
-                                                    <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                                                        <div class="rating rateit-small"></div>
-                                                        <div class="product-price"> <span class="price"> $450.99 </span>
-                                                        </div>
-                                                        <!-- /.product-price -->
-
-                                                    </div>
-                                                </div>
-                                                <!-- /.col -->
-                                            </div>
-                                            <!-- /.product-micro-row -->
-                                        </div>
-                                        <!-- /.product-micro -->
-
-                                    </div>
-                                    <div class="product">
-                                        <div class="product-micro">
-                                            <div class="row product-micro-row">
-                                                <div class="col col-xs-5">
-                                                    <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p26.jpg" alt=""> </a>
-                                                        </div>
-                                                        <!-- /.image -->
-
-                                                    </div>
-                                                    <!-- /.product-image -->
-                                                </div>
-                                                <!-- /.col -->
-                                                <div class="col col-xs-7">
-                                                    <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                                                        <div class="rating rateit-small"></div>
-                                                        <div class="product-price"> <span class="price"> $450.99 </span>
-                                                        </div>
-                                                        <!-- /.product-price -->
-
-                                                    </div>
-                                                </div>
-                                                <!-- /.col -->
-                                            </div>
-                                            <!-- /.product-micro-row -->
-                                        </div>
-                                        <!-- /.product-micro -->
-
-                                    </div>
-                                    <div class="product">
-                                        <div class="product-micro">
-                                            <div class="row product-micro-row">
-                                                <div class="col col-xs-5">
-                                                    <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p25.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p28.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -742,7 +645,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p24.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p27.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -773,7 +676,104 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p23.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p26.jpg') }}" alt=""> </a>
+                                                        </div>
+                                                        <!-- /.image -->
+
+                                                    </div>
+                                                    <!-- /.product-image -->
+                                                </div>
+                                                <!-- /.col -->
+                                                <div class="col col-xs-7">
+                                                    <div class="product-info">
+                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <div class="rating rateit-small"></div>
+                                                        <div class="product-price"> <span class="price"> $450.99 </span>
+                                                        </div>
+                                                        <!-- /.product-price -->
+
+                                                    </div>
+                                                </div>
+                                                <!-- /.col -->
+                                            </div>
+                                            <!-- /.product-micro-row -->
+                                        </div>
+                                        <!-- /.product-micro -->
+
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-micro">
+                                            <div class="row product-micro-row">
+                                                <div class="col col-xs-5">
+                                                    <div class="product-image">
+                                                        <div class="image"> <a href="#"> <img
+                                                                    src="{{ asset('frontend/assets/images/products/p25.jpg') }}" alt=""> </a>
+                                                        </div>
+                                                        <!-- /.image -->
+
+                                                    </div>
+                                                    <!-- /.product-image -->
+                                                </div>
+                                                <!-- /.col -->
+                                                <div class="col col-xs-7">
+                                                    <div class="product-info">
+                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <div class="rating rateit-small"></div>
+                                                        <div class="product-price"> <span class="price"> $450.99 </span>
+                                                        </div>
+                                                        <!-- /.product-price -->
+
+                                                    </div>
+                                                </div>
+                                                <!-- /.col -->
+                                            </div>
+                                            <!-- /.product-micro-row -->
+                                        </div>
+                                        <!-- /.product-micro -->
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="products special-product">
+                                    <div class="product">
+                                        <div class="product-micro">
+                                            <div class="row product-micro-row">
+                                                <div class="col col-xs-5">
+                                                    <div class="product-image">
+                                                        <div class="image"> <a href="#"> <img
+                                                                    src="{{ asset('frontend/assets/images/products/p24.jpg') }}" alt=""> </a>
+                                                        </div>
+                                                        <!-- /.image -->
+
+                                                    </div>
+                                                    <!-- /.product-image -->
+                                                </div>
+                                                <!-- /.col -->
+                                                <div class="col col-xs-7">
+                                                    <div class="product-info">
+                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <div class="rating rateit-small"></div>
+                                                        <div class="product-price"> <span class="price"> $450.99 </span>
+                                                        </div>
+                                                        <!-- /.product-price -->
+
+                                                    </div>
+                                                </div>
+                                                <!-- /.col -->
+                                            </div>
+                                            <!-- /.product-micro-row -->
+                                        </div>
+                                        <!-- /.product-micro -->
+
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-micro">
+                                            <div class="row product-micro-row">
+                                                <div class="col col-xs-5">
+                                                    <div class="product-image">
+                                                        <div class="image"> <a href="#"> <img
+                                                                    src="{{ asset('frontend/assets/images/products/p23.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -803,7 +803,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p22.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p22.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -869,7 +869,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p28.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p28.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -900,7 +900,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p15.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p15.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -931,7 +931,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p26.jpg" alt="image">
+                                                                    src="{{ asset('frontend/assets/images/products/p26.jpg') }}" alt="image">
                                                             </a> </div>
                                                         <!-- /.image -->
 
@@ -966,7 +966,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p18.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p18.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -997,7 +997,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p17.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p17.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1028,7 +1028,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p16.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p16.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -1062,7 +1062,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p15.jpg" alt="images">
+                                                                    src="{{ asset('frontend/assets/images/products/p15.jpg') }}" alt="images">
                                                                 <div class="zoom-overlay"></div>
                                                             </a> </div>
                                                         <!-- /.image -->
@@ -1094,7 +1094,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p14.jpg" alt="">
+                                                                    src="{{ asset('frontend/assets/images/products/p14.jpg') }}" alt="">
                                                                 <div class="zoom-overlay"></div>
                                                             </a> </div>
                                                         <!-- /.image -->
@@ -1126,7 +1126,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p13.jpg" alt="image">
+                                                                    src="{{ asset('frontend/assets/images/products/p13.jpg') }}" alt="image">
                                                             </a> </div>
                                                         <!-- /.image -->
 
@@ -1182,7 +1182,7 @@
                 <div class="sidebar-widget  wow fadeInUp outer-top-vs ">
                     <div id="advertisement" class="advertisement">
                         <div class="item">
-                            <div class="avatar"><img src="assets/images/testimonials/member1.png" alt="Image"></div>
+                            <div class="avatar"><img src="{{ asset('frontend/assets/images/testimonials/member1.png') }}" alt="Image"></div>
                             <div class="testimonials"><em>"</em> Vtae sodales aliq uam morbi non sem lacus port mollis.
                                 Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
                             <div class="clients_author">John Doe <span>Abc Company</span> </div>
@@ -1191,7 +1191,7 @@
                         <!-- /.item -->
 
                         <div class="item">
-                            <div class="avatar"><img src="assets/images/testimonials/member3.png" alt="Image"></div>
+                            <div class="avatar"><img src="{{ asset('frontend/assets/images/testimonials/member3.png') }}" alt="Image"></div>
                             <div class="testimonials"><em>"</em>Vtae sodales aliq uam morbi non sem lacus port mollis.
                                 Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
                             <div class="clients_author">Stephen Doe <span>Xperia Designs</span> </div>
@@ -1199,7 +1199,7 @@
                         <!-- /.item -->
 
                         <div class="item">
-                            <div class="avatar"><img src="assets/images/testimonials/member2.png" alt="Image"></div>
+                            <div class="avatar"><img src="{{ asset('frontend/assets/images/testimonials/member2.png') }}" alt="Image"></div>
                             <div class="testimonials"><em>"</em> Vtae sodales aliq uam morbi non sem lacus port mollis.
                                 Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
                             <div class="clients_author">Saraha Smith <span>Datsun &amp; Co</span> </div>
@@ -1213,7 +1213,7 @@
 
                 <!-- ============================================== Testimonials: END ============================================== -->
 
-                <div class="home-banner"> <img src="assets/images/banners/LHS-banner.jpg" alt="Image"> </div>
+                <div class="home-banner"> <img src="{{ asset('frontend/assets/images/banners/LHS-banner.jpg') }}" alt="Image"> </div>
             </div>
             <!-- /.sidemenu-holder -->
             <!-- ============================================== SIDEBAR : END ============================================== -->
@@ -1224,7 +1224,7 @@
 
                 <div id="hero">
                     <div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
-                        <div class="item" style="background-image: url(assets/images/sliders/01.jpg);">
+                        <div class="item" style="background-image: url({{ asset('frontend/assets/images/sliders/01.jpg') }}) ">
                             <div class="container-fluid">
                                 <div class="caption bg-color vertical-center text-left">
                                     <div class="slider-header fadeInDown-1">Top Brands</div>
@@ -1241,7 +1241,7 @@
                         </div>
                         <!-- /.item -->
 
-                        <div class="item" style="background-image: url(assets/images/sliders/02.jpg);">
+                        <div class="item" style="background-image: url({{ asset('frontend/assets/images/sliders/02.jpg') }}) ">
                             <div class="container-fluid">
                                 <div class="caption bg-color vertical-center text-left">
                                     <div class="slider-header fadeInDown-1">Spring 2016</div>
@@ -1336,7 +1336,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p1.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p1.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag new"><span>new</span></div>
@@ -1391,7 +1391,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p2.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p2.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag hot"><span>hot</span></div>
@@ -1443,7 +1443,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p4.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p4.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag sale"><span>sale</span></div>
@@ -1495,7 +1495,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p3.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p3.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag sale"><span>sale</span></div>
@@ -1547,7 +1547,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p30.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p30.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag hot"><span>hot</span></div>
@@ -1599,7 +1599,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p29.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p29.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag new"><span>new</span></div>
@@ -1660,7 +1660,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p5.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p5.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag sale"><span>sale</span></div>
@@ -1712,7 +1712,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p6.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p6.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag new"><span>new</span></div>
@@ -1764,7 +1764,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p7.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p7.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag sale"><span>sale</span></div>
@@ -1816,7 +1816,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p8.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p8.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag new"><span>new</span></div>
@@ -1868,7 +1868,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p9.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p9.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag hot"><span>hot</span></div>
@@ -1920,7 +1920,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p10.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p10.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag hot"><span>hot</span></div>
@@ -1981,7 +1981,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p11.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p11.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag new"><span>new</span></div>
@@ -2033,7 +2033,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p12.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p12.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag new"><span>new</span></div>
@@ -2085,7 +2085,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p13.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p13.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag sale"><span>sale</span></div>
@@ -2137,7 +2137,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p14.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p14.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag hot"><span>hot</span></div>
@@ -2189,7 +2189,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p15.jpg" alt="image"></a>
+                                                                src="{{ asset('frontend/assets/images/products/p15.jpg') }}" alt="image"></a>
                                                     </div>
                                                     <!-- /.image -->
 
@@ -2242,7 +2242,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p16.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p16.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag sale"><span>sale</span></div>
@@ -2302,7 +2302,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p18.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p18.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag sale"><span>sale</span></div>
@@ -2354,7 +2354,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p18.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p18.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag hot"><span>hot</span></div>
@@ -2406,7 +2406,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p17.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p17.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag sale"><span>sale</span></div>
@@ -2458,7 +2458,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p16.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p16.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag new"><span>new</span></div>
@@ -2510,7 +2510,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p13.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p13.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag new"><span>new</span></div>
@@ -2562,7 +2562,7 @@
                                             <div class="product">
                                                 <div class="product-image">
                                                     <div class="image"> <a href="detail.html"><img
-                                                                src="assets/images/products/p14.jpg" alt=""></a> </div>
+                                                                src="{{ asset('frontend/assets/images/products/p14.jpg') }}" alt=""></a> </div>
                                                     <!-- /.image -->
 
                                                     <div class="tag hot"><span>hot</span></div>
@@ -2625,7 +2625,7 @@
                         <div class="col-md-7 col-sm-7">
                             <div class="wide-banner cnt-strip">
                                 <div class="image"> <img class="img-responsive"
-                                        src="assets/images/banners/home-banner1.jpg" alt=""> </div>
+                                        src="{{ asset('frontend/assets/images/banners/home-banner1.jpg') }}" alt=""> </div>
                             </div>
                             <!-- /.wide-banner -->
                         </div>
@@ -2633,7 +2633,7 @@
                         <div class="col-md-5 col-sm-5">
                             <div class="wide-banner cnt-strip">
                                 <div class="image"> <img class="img-responsive"
-                                        src="assets/images/banners/home-banner2.jpg" alt=""> </div>
+                                        src="{{ asset('frontend/assets/images/banners/home-banner2.jpg') }}" alt=""> </div>
                             </div>
                             <!-- /.wide-banner -->
                         </div>
@@ -2653,7 +2653,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p5.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p5.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag hot"><span>hot</span></div>
@@ -2702,7 +2702,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p6.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p6.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag new"><span>new</span></div>
@@ -2750,8 +2750,8 @@
                             <div class="products">
                                 <div class="product">
                                     <div class="product-image">
-                                        <div class="image"> <a href="detail.html"><img src="assets/images/blank.gif"
-                                                    data-echo="assets/images/products/p7.jpg" alt=""></a> </div>
+                                        <div class="image"> <a href="detail.html"><img src="{{ asset('frontend/assets/images/blank.gif"
+                                                    data-echo="assets/images/products/p7.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag sale"><span>sale</span></div>
@@ -2800,7 +2800,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p8.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p8.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag hot"><span>hot</span></div>
@@ -2849,7 +2849,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p9.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p9.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag new"><span>new</span></div>
@@ -2898,7 +2898,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p10.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p10.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag sale"><span>sale</span></div>
@@ -2952,7 +2952,7 @@
                         <div class="col-md-12">
                             <div class="wide-banner cnt-strip">
                                 <div class="image"> <img class="img-responsive"
-                                        src="assets/images/banners/home-banner.jpg" alt=""> </div>
+                                        src="{{ asset('frontend/assets/images/banners/home-banner.jpg') }}" alt=""> </div>
                                 <div class="strip strip-text">
                                     <div class="strip-inner">
                                         <h2 class="text-right">New Mens Fashion<br>
@@ -2987,7 +2987,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p20.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p20.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -3018,73 +3018,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p21.jpg" alt=""> </a>
-                                                        </div>
-                                                        <!-- /.image -->
-
-                                                    </div>
-                                                    <!-- /.product-image -->
-                                                </div>
-                                                <!-- /.col -->
-                                                <div class="col2 col-xs-7">
-                                                    <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
-                                                        <div class="rating rateit-small"></div>
-                                                        <div class="product-price"> <span class="price"> $450.99 </span>
-                                                        </div>
-                                                        <!-- /.product-price -->
-
-                                                    </div>
-                                                </div>
-                                                <!-- /.col -->
-                                            </div>
-                                            <!-- /.product-micro-row -->
-                                        </div>
-                                        <!-- /.product-micro -->
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="products best-product">
-                                    <div class="product">
-                                        <div class="product-micro">
-                                            <div class="row product-micro-row">
-                                                <div class="col col-xs-5">
-                                                    <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p22.jpg" alt=""> </a>
-                                                        </div>
-                                                        <!-- /.image -->
-
-                                                    </div>
-                                                    <!-- /.product-image -->
-                                                </div>
-                                                <!-- /.col -->
-                                                <div class="col2 col-xs-7">
-                                                    <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
-                                                        <div class="rating rateit-small"></div>
-                                                        <div class="product-price"> <span class="price"> $450.99 </span>
-                                                        </div>
-                                                        <!-- /.product-price -->
-
-                                                    </div>
-                                                </div>
-                                                <!-- /.col -->
-                                            </div>
-                                            <!-- /.product-micro-row -->
-                                        </div>
-                                        <!-- /.product-micro -->
-
-                                    </div>
-                                    <div class="product">
-                                        <div class="product-micro">
-                                            <div class="row product-micro-row">
-                                                <div class="col col-xs-5">
-                                                    <div class="product-image">
-                                                        <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p23.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p21.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -3119,7 +3053,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p24.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p22.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -3150,7 +3084,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p25.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p23.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -3185,7 +3119,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p26.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p24.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -3216,7 +3150,73 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image"> <a href="#"> <img
-                                                                    src="assets/images/products/p27.jpg" alt=""> </a>
+                                                                    src="{{ asset('frontend/assets/images/products/p25.jpg') }}" alt=""> </a>
+                                                        </div>
+                                                        <!-- /.image -->
+
+                                                    </div>
+                                                    <!-- /.product-image -->
+                                                </div>
+                                                <!-- /.col -->
+                                                <div class="col2 col-xs-7">
+                                                    <div class="product-info">
+                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <div class="rating rateit-small"></div>
+                                                        <div class="product-price"> <span class="price"> $450.99 </span>
+                                                        </div>
+                                                        <!-- /.product-price -->
+
+                                                    </div>
+                                                </div>
+                                                <!-- /.col -->
+                                            </div>
+                                            <!-- /.product-micro-row -->
+                                        </div>
+                                        <!-- /.product-micro -->
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="products best-product">
+                                    <div class="product">
+                                        <div class="product-micro">
+                                            <div class="row product-micro-row">
+                                                <div class="col col-xs-5">
+                                                    <div class="product-image">
+                                                        <div class="image"> <a href="#"> <img
+                                                                    src="{{ asset('frontend/assets/images/products/p26.jpg') }}" alt=""> </a>
+                                                        </div>
+                                                        <!-- /.image -->
+
+                                                    </div>
+                                                    <!-- /.product-image -->
+                                                </div>
+                                                <!-- /.col -->
+                                                <div class="col2 col-xs-7">
+                                                    <div class="product-info">
+                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <div class="rating rateit-small"></div>
+                                                        <div class="product-price"> <span class="price"> $450.99 </span>
+                                                        </div>
+                                                        <!-- /.product-price -->
+
+                                                    </div>
+                                                </div>
+                                                <!-- /.col -->
+                                            </div>
+                                            <!-- /.product-micro-row -->
+                                        </div>
+                                        <!-- /.product-micro -->
+
+                                    </div>
+                                    <div class="product">
+                                        <div class="product-micro">
+                                            <div class="row product-micro-row">
+                                                <div class="col col-xs-5">
+                                                    <div class="product-image">
+                                                        <div class="image"> <a href="#"> <img
+                                                                    src="{{ asset('frontend/assets/images/products/p27.jpg') }}" alt=""> </a>
                                                         </div>
                                                         <!-- /.image -->
 
@@ -3259,7 +3259,7 @@
                                 <div class="blog-post">
                                     <div class="blog-post-image">
                                         <div class="image"> <a href="blog.html"><img
-                                                    src="assets/images/blog-post/post1.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/blog-post/post1.jpg') }}" alt=""></a> </div>
                                     </div>
                                     <!-- /.blog-post-image -->
 
@@ -3282,7 +3282,7 @@
                                 <div class="blog-post">
                                     <div class="blog-post-image">
                                         <div class="image"> <a href="blog.html"><img
-                                                    src="assets/images/blog-post/post2.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/blog-post/post2.jpg') }}" alt=""></a> </div>
                                     </div>
                                     <!-- /.blog-post-image -->
 
@@ -3307,7 +3307,7 @@
                                 <div class="blog-post">
                                     <div class="blog-post-image">
                                         <div class="image"> <a href="blog.html"><img
-                                                    src="assets/images/blog-post/post1.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/blog-post/post1.jpg') }}" alt=""></a> </div>
                                     </div>
                                     <!-- /.blog-post-image -->
 
@@ -3330,7 +3330,7 @@
                                 <div class="blog-post">
                                     <div class="blog-post-image">
                                         <div class="image"> <a href="blog.html"><img
-                                                    src="assets/images/blog-post/post2.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/blog-post/post2.jpg') }}" alt=""></a> </div>
                                     </div>
                                     <!-- /.blog-post-image -->
 
@@ -3353,7 +3353,7 @@
                                 <div class="blog-post">
                                     <div class="blog-post-image">
                                         <div class="image"> <a href="blog.html"><img
-                                                    src="assets/images/blog-post/post1.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/blog-post/post1.jpg') }}" alt=""></a> </div>
                                     </div>
                                     <!-- /.blog-post-image -->
 
@@ -3389,7 +3389,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p19.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p19.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag new"><span>new</span></div>
@@ -3438,7 +3438,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p28.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p28.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag new"><span>new</span></div>
@@ -3487,7 +3487,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p30.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p30.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag hot"><span>hot</span></div>
@@ -3536,7 +3536,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p1.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p1.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag hot"><span>hot</span></div>
@@ -3585,7 +3585,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p2.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p2.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag sale"><span>sale</span></div>
@@ -3634,7 +3634,7 @@
                                 <div class="product">
                                     <div class="product-image">
                                         <div class="image"> <a href="detail.html"><img
-                                                    src="assets/images/products/p3.jpg" alt=""></a> </div>
+                                                    src="{{ asset('frontend/assets/images/products/p3.jpg') }}" alt=""></a> </div>
                                         <!-- /.image -->
 
                                         <div class="tag sale"><span>sale</span></div>
@@ -3693,45 +3693,45 @@
             <div class="logo-slider-inner">
                 <div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
                     <div class="item m-t-15"> <a href="#" class="image"> <img
-                                data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt=""> </a>
+                                data-echo="assets/images/brands/brand1.png') }}" src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a>
                     </div>
                     <!--/.item-->
 
                     <div class="item m-t-10"> <a href="#" class="image"> <img
-                                data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt=""> </a>
+                                data-echo="assets/images/brands/brand2.png') }}" src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a>
                     </div>
                     <!--/.item-->
 
-                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand3.png"
-                                src="assets/images/blank.gif" alt=""> </a> </div>
+                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand3.png') }}"
+                                src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a> </div>
                     <!--/.item-->
 
-                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png"
-                                src="assets/images/blank.gif" alt=""> </a> </div>
+                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png') }}"
+                                src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a> </div>
                     <!--/.item-->
 
-                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png"
-                                src="assets/images/blank.gif" alt=""> </a> </div>
+                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png') }}"
+                                src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a> </div>
                     <!--/.item-->
 
-                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand6.png"
-                                src="assets/images/blank.gif" alt=""> </a> </div>
+                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand6.png') }}"
+                                src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a> </div>
                     <!--/.item-->
 
-                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png"
-                                src="assets/images/blank.gif" alt=""> </a> </div>
+                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png') }}"
+                                src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a> </div>
                     <!--/.item-->
 
-                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png"
-                                src="assets/images/blank.gif" alt=""> </a> </div>
+                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png') }}"
+                                src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a> </div>
                     <!--/.item-->
 
-                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png"
-                                src="assets/images/blank.gif" alt=""> </a> </div>
+                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png') }}"
+                                src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a> </div>
                     <!--/.item-->
 
-                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png"
-                                src="assets/images/blank.gif" alt=""> </a> </div>
+                    <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png') }}"
+                                src="{{ asset('frontend/assets/images/blank.gif" alt=""> </a> </div>
                     <!--/.item-->
                 </div>
                 <!-- /.owl-carousel #logo-slider -->
@@ -3740,6 +3740,7 @@
 
         </div>
         <!-- /.logo-slider -->
+        @include('frontend.body.brands')
         <!-- ============================================== BRANDS CAROUSEL : END ============================================== -->
     </div>
     <!-- /.container -->

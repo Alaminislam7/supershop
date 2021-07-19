@@ -10,7 +10,13 @@
                         <li><a href="#"><i class="icon fa fa-heart"></i>Wishlist</a></li>
                         <li><a href="#"><i class="icon fa fa-shopping-cart"></i>My Cart</a></li>
                         <li><a href="#"><i class="icon fa fa-check"></i>Checkout</a></li>
-                        <li><a href="#"><i class="icon fa fa-lock"></i>Login</a></li>
+                        <li>
+                            @auth
+                            <a href="{{ route('dashboard') }}"><i class="icon fa fa-user"></i>User Profile</a>
+                            @else
+                            <a href="{{ route('login') }}"><i class="icon fa fa-lock"></i>Login/Register</a>
+                            @endauth
+                        </li>
                     </ul>
                 </div>
                 <!-- /.cnt-account -->
@@ -50,7 +56,8 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
                     <!-- ============================================================= LOGO ============================================================= -->
-                    <div class="logo"> <a href="home.html"> <img src="{{ asset('frontend/assets/images/logo.png') }}" alt="logo"> </a> </div>
+                    <div class="logo"> <a href="{{ url('/') }}"> <img src="{{ asset('frontend/assets/images/logo.png') }}"
+                                alt="logo"> </a> </div>
                     <!-- /.logo -->
                     <!-- ============================================================= LOGO : END ============================================================= -->
                 </div>
@@ -106,8 +113,9 @@
                                 <div class="cart-item product-summary">
                                     <div class="row">
                                         <div class="col-xs-4">
-                                            <div class="image"> <a href="detail.html"><img src="{{ asset('frontend/assets/images/cart.jpg') }}"
-                                                        alt=""></a> </div>
+                                            <div class="image"> <a href="detail.html"><img
+                                                        src="{{ asset('frontend/assets/images/cart.jpg') }}" alt=""></a>
+                                            </div>
                                         </div>
                                         <div class="col-xs-7">
                                             <h3 class="name"><a href="index.php?page-detail">Simple Product</a></h3>
@@ -226,7 +234,8 @@
 
                                                     <div class="col-xs-12 col-sm-6 col-md-4 col-menu banner-image"> <img
                                                             class="img-responsive"
-                                                            src="{{ asset('frontend/assets/images/banners/top-menu-banner.jpg') }}" alt="">
+                                                            src="{{ asset('frontend/assets/images/banners/top-menu-banner.jpg') }}"
+                                                            alt="">
                                                     </div>
                                                     <!-- /.yamm-content -->
                                                 </div>
@@ -309,7 +318,8 @@
                                                     </div>
                                                     <div class="col-xs-12 col-sm-12 col-md-4 col-menu custom-banner"> <a
                                                             href="#"><img alt=""
-                                                                src="{{ asset('frontend/assets/images/banners/banner-side.png') }}"></a> </div>
+                                                                src="{{ asset('frontend/assets/images/banners/banner-side.png') }}"></a>
+                                                    </div>
                                                 </div>
                                                 <!-- /.row -->
                                             </div>
