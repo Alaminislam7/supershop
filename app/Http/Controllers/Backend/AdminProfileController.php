@@ -75,4 +75,6 @@ class AdminProfileController extends Controller
             return redirect()->back();
         }
     } // end method
+
+
 }
