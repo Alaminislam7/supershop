@@ -6,16 +6,10 @@
 
 <div class="container-full">
     <!-- Content Header (Page header) -->
-
-
     <!-- Main content -->
     <section class="content">
         <div class="row">
-
-
-
             <div class="col-8">
-
                 <div class="box">
                     <div class="box-header with-border">
                         <h3 class="box-title">Sub->SubCategory List <span class="badge badge-pill badge-danger">
@@ -48,25 +42,21 @@
                                                 class="btn btn-danger" title="Delete Data" id="delete">
                                                 <i class="fa fa-trash"></i></a>
                                         </td>
-
                                     </tr>
                                     @endforeach
                                 </tbody>
-
                             </table>
                         </div>
                     </div>
                     <!-- /.box-body -->
                 </div>
                 <!-- /.box -->
-
-
             </div>
             <!-- /.col -->
+
             <!--   ------------ Add Category Page -------- -->
 
             <div class="col-4">
-
                 <div class="box">
                     <div class="box-header with-border">
                         <h3 class="box-title">Add Sub-SubCategory </h3>
@@ -74,12 +64,8 @@
                     <!-- /.box-header -->
                     <div class="box-body">
                         <div class="table-responsive">
-
-
                             <form method="post" action="{{ route('subsubcategory.store') }}">
                                 @csrf
-
-
                                 <div class="form-group">
                                     <h5>Category Select <span class="text-danger">*</span></h5>
                                     <div class="controls">
@@ -95,8 +81,6 @@
                                         @enderror
                                     </div>
                                 </div>
-
-
                                 <div class="form-group">
                                     <h5>SubCategory Select <span class="text-danger">*</span></h5>
                                     <div class="controls">
@@ -109,8 +93,6 @@
                                         @enderror
                                     </div>
                                 </div>
-
-
                                 <div class="form-group">
                                     <h5>Sub-SubCategory English <span class="text-danger">*</span></h5>
                                     <div class="controls">
@@ -120,8 +102,6 @@
                                         @enderror
                                     </div>
                                 </div>
-
-
                                 <div class="form-group">
                                     <h5>Sub-SubCategory Hindi <span class="text-danger">*</span></h5>
                                     <div class="controls">
@@ -131,8 +111,6 @@
                                         @enderror
                                     </div>
                                 </div>
-
-
                                 <div class="text-xs-right">
                                     <input type="submit" class="btn btn-rounded btn-primary mb-5" value="Add New">
                                 </div>
