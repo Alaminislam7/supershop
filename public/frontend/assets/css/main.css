@@ -1309,6 +1309,7 @@ header{background:#157ed2}
   border-radius: 3px;
   display: inline-block;
   color: #fff;
+  margin-right: -20px;
 }
 .top-cart-row .dropdown-cart .lnk-cart .items-cart-inner {
   position: relative;
