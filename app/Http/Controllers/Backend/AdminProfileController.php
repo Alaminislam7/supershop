@@ -74,7 +74,12 @@ class AdminProfileController extends Controller
         } else {
             return redirect()->back();
         }
-    } // end method
+    }
+
+    public function AllUsers(){
+		$users = User::latest()->get();
+		return view('backend.user.all_user',compact('users'));
+	}
 
 
 }
