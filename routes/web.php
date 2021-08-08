@@ -46,7 +46,7 @@ Route::get('/admin/logout', [AdminController::class, 'destroy'])->name('admin.lo
 
 Route::middleware(['auth:sanctum,admin', 'verified'])->get('/admin/dashboard', function () {
     return view('admin.index');
-})->name('dashboard');
+})->name('dashboard')->middleware('auth:admin');
 
 Route::get('admin/profile', [AdminProfileController::class, 'AdminProfile'])->name('admin.profile');
 
@@ -240,11 +240,11 @@ Route::group(['prefix' => 'user', 'middleware' => ['user', 'auth'], 'namespace' 
 
     Route::get('/invoice_download/{order_id}', [AllUserController::class, 'InvoiceDownload']);
 
-    // Route::post('/return/order/{order_id}', [AllUserController::class, 'ReturnOrder'])->name('return.order');
+    Route::post('/return/order/{order_id}', [AllUserController::class, 'ReturnOrder'])->name('return.order');
 
-    // Route::get('/return/order/list', [AllUserController::class, 'ReturnOrderList'])->name('return.order.list');
+    Route::get('/return/order/list', [AllUserController::class, 'ReturnOrderList'])->name('return.order.list');
 
-    // Route::get('/cancel/orders', [AllUserController::class, 'CancelOrders'])->name('cancel.orders');
+    Route::get('/cancel/orders', [AllUserController::class, 'CancelOrders'])->name('cancel.orders');
 });
 
 
