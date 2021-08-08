@@ -118,8 +118,8 @@ class CartController extends Controller
             Session::put('coupon', [
                 'coupon_name' => $coupon->coupon_name,
                 'coupon_discount' => $coupon->coupon_discount,
-                'discount_amount' => round((int)Cart::total() * $coupon->coupon_discount / 100),
-                'total_amount' => round((int)Cart::total() - Cart::total() * $coupon->coupon_discount / 100),
+                'discount_amount' => Cart::total() * $coupon->coupon_discount / 100,
+                'total_amount' => Cart::total() - Cart::total() * $coupon->coupon_discount / 100,
             ]);
 
             return response()->json(array(
@@ -166,7 +166,7 @@ class CartController extends Controller
 
                 $carts = Cart::content();
                 $cartQty = Cart::count();
-                $cartTotal = round((int)Cart::total());
+                $cartTotal = Cart::total();
 
                 $divisions = ShipDivision::orderBy('division_name', 'ASC')->get();
                 return view('frontend.checkout.checkout_view', compact('carts', 'cartQty', 'cartTotal', 'divisions'));

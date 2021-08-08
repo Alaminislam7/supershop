@@ -24,7 +24,7 @@ class StripeController extends Controller
         if (Session::has('coupon')) {
             $total_amount = Session::get('coupon')['total_amount'];
         } else {
-            $total_amount = Cart::total();
+            $total_amount = round(Cart::total());
         }
 
         \Stripe\Stripe::setApiKey('sk_test_51JLAswBNUnElid4FyWtUvGbkwAR5qunIy5egDeg3lJNbq0ZBcYnJAAuy5jbMkOopEFStp4R41qKvcjTtrgOTul3200fYdWKlIz');
@@ -34,7 +34,7 @@ class StripeController extends Controller
         $charge = \Stripe\Charge::create([
             'amount' => $total_amount * 100,
             'currency' => 'usd',
-            'description' => 'Easy Online Store',
+            'description' => 'SUPERSHOP Store',
             'source' => $token,
             'metadata' => ['order_id' => uniqid()],
         ]);
