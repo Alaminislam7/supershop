@@ -21,7 +21,7 @@ class CartPageController extends Controller
     {
         $carts = Cart::content();
         $cartQty = Cart::count();
-        $cartTotal = Cart::total();
+        $cartTotal = round((int)Cart::total());
 
         return response()->json(array(
             'carts' => $carts,

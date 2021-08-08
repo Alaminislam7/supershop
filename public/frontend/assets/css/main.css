@@ -88,6 +88,11 @@ body {
   background-color: #f3f3f3;
 }
 
+.all-margin {
+  margin-top: 20px !important;
+  padding-top: 20px !important;
+}
+
 .cnt-home {background-color: #f3f3f3;}
 
 ul {
@@ -1314,6 +1319,10 @@ header{background:#157ed2}
 .top-cart-row .dropdown-cart .lnk-cart .items-cart-inner {
   position: relative;
 }
+
+
+
+
 .top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket {
     padding: 12px 12px 13px 15px;
     font-family: 'Open Sans', sans-serif;
