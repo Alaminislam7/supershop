@@ -237,7 +237,13 @@ Route::group(['prefix' => 'user', 'middleware' => ['user', 'auth'], 'namespace' 
 
     Route::get('/order_details/{order_id}', [AllUserController::class, 'OrderDetails']);
 
+    Route::get('/invoice_download/{order_id}', [AllUserController::class, 'InvoiceDownload']);
 
+    // Route::post('/return/order/{order_id}', [AllUserController::class, 'ReturnOrder'])->name('return.order');
+
+    // Route::get('/return/order/list', [AllUserController::class, 'ReturnOrderList'])->name('return.order.list');
+
+    // Route::get('/cancel/orders', [AllUserController::class, 'CancelOrders'])->name('cancel.orders');
 });
 
 
@@ -326,4 +332,3 @@ Route::get('/district-get/ajax/{division_id}', [CheckoutController::class, 'Dist
 Route::get('/state-get/ajax/{district_id}', [CheckoutController::class, 'StateGetAjax']);
 
 Route::post('/checkout/store', [CheckoutController::class, 'CheckoutStore'])->name('checkout.store');
-

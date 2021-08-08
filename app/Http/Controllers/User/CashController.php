@@ -24,7 +24,7 @@ class CashController extends Controller
         if (Session::has('coupon')) {
             $total_amount = Session::get('coupon')['total_amount'];
         } else {
-            $total_amount = round((int)Cart::total());  
+            $total_amount = Cart::total();  
         }
 
 
