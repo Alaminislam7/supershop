@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Backend\AdminProfileController;
+use App\Http\Controllers\Backend\BlogController;
 use App\Http\Controllers\Backend\BrandController;
 use App\Http\Controllers\Backend\SubCategoryController;
 use App\Http\Controllers\Backend\CategoryController;
@@ -11,10 +12,13 @@ use App\Http\Controllers\Backend\OrderController;
 use App\Http\Controllers\Frontend\IndexController;
 use App\Http\Controllers\Backend\ProductController;
 use App\Http\Controllers\Backend\ReportController;
+use App\Http\Controllers\Backend\ReturnController;
 use App\Http\Controllers\Backend\ShippingAreaController;
+use App\Http\Controllers\Backend\SiteSettingController;
 use App\Http\Controllers\Backend\SliderController;
 use App\Http\Controllers\User\CheckoutController;
 use App\Http\Controllers\Frontend\CartController;
+use App\Http\Controllers\Frontend\HomeBlogController;
 use App\Http\Controllers\Frontend\LanguageController;
 use App\Http\Controllers\User\AllUserController;
 use App\Http\Controllers\User\CartPageController;
@@ -389,3 +393,56 @@ Route::prefix('reports')->group(function () {
 Route::prefix('alluser')->group(function () {
     Route::get('/view', [AdminProfileController::class, 'AllUsers'])->name('all-users');
 });
+
+
+// Admin Blog  Routes 
+Route::prefix('blog')->group(function () {
+
+    Route::get('/category', [BlogController::class, 'BlogCategory'])->name('blog.category');
+
+    Route::post('/store', [BlogController::class, 'BlogCategoryStore'])->name('blogcategory.store');
+
+    Route::get('/category/edit/{id}', [BlogController::class, 'BlogCategoryEdit'])->name('blog.category.edit');
+
+
+    Route::post('/update', [BlogController::class, 'BlogCategoryUpdate'])->name('blogcategory.update');
+
+    // Admin View Blog Post Routes 
+
+    Route::get('/list/post', [BlogController::class, 'ListBlogPost'])->name('list.post');
+
+    Route::get('/add/post', [BlogController::class, 'AddBlogPost'])->name('add.post');
+
+    Route::post('/post/store', [BlogController::class, 'BlogPostStore'])->name('post-store');
+});
+
+// Admin Site Setting Routes 
+Route::prefix('setting')->group(function () {
+
+    Route::get('/site', [SiteSettingController::class, 'SiteSetting'])->name('site.setting');
+    Route::post('/site/update', [SiteSettingController::class, 'SiteSettingUpdate'])->name('update.sitesetting');
+
+    Route::get('/seo', [SiteSettingController::class, 'SeoSetting'])->name('seo.setting');
+
+    Route::post('/seo/update', [SiteSettingController::class, 'SeoSettingUpdate'])->name('update.seosetting');
+});
+
+
+// Admin Return Order Routes 
+Route::prefix('return')->group(function () {
+
+    Route::get('/admin/request', [ReturnController::class, 'ReturnRequest'])->name('return.request');
+
+    Route::get('/admin/return/approve/{order_id}', [ReturnController::class, 'ReturnRequestApprove'])->name('return.approve');
+
+    Route::get('/admin/all/request', [ReturnController::class, 'ReturnAllRequest'])->name('all.request');
+});
+
+
+//  Frontend Blog Show Routes 
+
+Route::get('/blog', [HomeBlogController::class, 'AddBlogPost'])->name('home.blog');
+
+Route::get('/post/details/{id}', [HomeBlogController::class, 'DetailsBlogPost'])->name('post.details');
+
+Route::get('/blog/category/post/{category_id}', [HomeBlogController::class, 'HomeBlogCatPost']);
