@@ -14,13 +14,15 @@ class AdminProfileController extends Controller
 {
     public function AdminProfile()
     {
-        $adminData = Admin::find(1);
+        $id = Auth::user()->id;
+        $adminData = Admin::find($id);
         return view('admin.admin_profile_view', compact('adminData'));
     }
 
     public function AdminProfileEdit()
     {
-        $editData = Admin::find(1);
+        $id = Auth::user()->id;
+        $editData = Admin::find($id);
         return view('admin.admin_profile_edit', compact('editData'));
     }
 
@@ -28,8 +30,8 @@ class AdminProfileController extends Controller
     public function AdminProfileStore(Request $request)
     {
 
-        // $id = Auth::user()->id;
-        $data = Admin::find(1);
+        $id = Auth::user()->id;
+        $data = Admin::find($id);
         $data->name = $request->name;
         $data->email = $request->email;
 

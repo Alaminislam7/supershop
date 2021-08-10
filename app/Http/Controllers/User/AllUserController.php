@@ -77,4 +77,25 @@ class AllUserController extends Controller
         $orders = Order::where('user_id', Auth::id())->where('status', 'cancel')->orderBy('id', 'DESC')->get();
         return view('frontend.user.order.cancel_order_view', compact('orders'));
     }
+
+    public function OrderTraking(Request $request)
+    {
+
+        $invoice = $request->code;
+
+        $track = Order::where('invoice_no', $invoice)->first();
+
+        if ($track) {
+
+            return view('frontend.traking.track_order', compact('track'));
+        } else {
+
+            $notification = array(
+                'message' => 'Invoice Code Is Invalid',
+                'alert-type' => 'error'
+            );
+
+            return redirect()->back()->with($notification);
+        }
+    }
 }
