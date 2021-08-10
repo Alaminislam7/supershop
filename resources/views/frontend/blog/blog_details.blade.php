@@ -30,14 +30,14 @@
                         <span
                             class="date-time">{{ Carbon\Carbon::parse($blogpost->created_at)->diffForHumans()  }}</span>
                         <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                        <div class="addthis_inline_share_toolbox_8tvu"></div>
+                        <div class="addthis_inline_share_toolbox_hd0w"></div>
 
                         <p> @if(session()->get('language') == 'hindi') {!! $blogpost->post_details_hin !!} @else {!!
                             $blogpost->post_details_en !!} @endif
                         </p>
 
                         <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                        <div class="addthis_inline_share_toolbox_8tvu"></div>
+                        <div class="addthis_inline_share_toolbox_hd0w"></div>
                     </div>
                     <div class="blog-write-comment outer-bottom-xs outer-top-xs">
                         <div class="row">
@@ -150,7 +150,7 @@
 </div>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e4b85f98de5201f"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e4aadeb72dfbc03"></script>
 
 
 @endsection
